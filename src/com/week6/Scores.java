@@ -40,9 +40,9 @@ public class Scores {
             scoreSum +=score;
             counter++;
         }
-        scoreSum = scoreSum - lowest;
-        scoreSum = scoreSum - highest;
-        scoreSum = scoreSum/((double)judges-2);
-        System.out.println(scoreSum);
+        scoreSum -= (highest + lowest);
+        scoreSum /= ((double)judges-2);
+        System.out.println("The score is " + scoreSum);
+        IO.outputDoubleAnswer(scoreSum);
     }
 }
