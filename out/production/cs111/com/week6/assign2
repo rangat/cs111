@@ -1,0 +1,87 @@
+Name: Rangaraj Tirumala
+RUID: 162007366
+
+Assignment 2
+
+Problem 1
+---------
+Test Case 1:
+
+Inputs:
+3,5.6,4.1,3
+Expected Output:
+4.1
+Actual Output:
+4.1
+Test Case 2:
+
+Inputs:
+2,3,5.6,4.1,3
+Expected Output:
+User entered bad input.
+4.1 (This is the sum after it asked for judges again)
+Actual Output:
+User entered bad input.
+4.1
+Test Case 3:
+
+How many judges? 1
+User entered bad input.
+How many judges? 3
+Enter score #1
+-5
+User entered bad input.
+Enter score #1
+3
+Enter score #2
+4.6
+Enter score #3
+10
+The score is 4.600000000000001
+RESULT: 4.600000000000001
+This text worked exactly as I expected
+
+Problem 2
+---------
+Test Case:
+Enter terminating number: 123
+Enter numbers:
+123
+User entered bad input.
+Enter numbers:
+5.3
+123
+User entered bad input.
+Enter numbers:
+500
+10
+6
+-1
+4
+123
+--TERMINATED--
+RESULT: -1.0
+RESULT: 4.0
+
+This Text case has all my error conditions in it. It worked well.
+You cant terminate the program until you input 2 number.
+you can input negative numbers
+you can input decimal numbers
+The program terminates when the termination number is called
+The results are expected
+
+Problem 3
+---------
+Test Case:
+Which prime do you want? -5
+User entered bad input.
+Which prime do you want? 0
+User entered bad input.
+Which prime do you want? 1.5
+That is not an integer.  Enter again: 123
+RESULT: 677
+
+The test case worked as expected
+The program will not accept values below one
+The program will not accept non integer values
+The Result is correct.
